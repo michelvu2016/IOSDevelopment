@@ -15,6 +15,13 @@
 		352B7C501E2D3C420080EF92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352B7C4E1E2D3C420080EF92 /* LaunchScreen.storyboard */; };
 		352B7C5B1E2D3C420080EF92 /* FlowerMasterDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352B7C5A1E2D3C420080EF92 /* FlowerMasterDetailTests.swift */; };
 		352B7C661E2D3C420080EF92 /* FlowerMasterDetailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352B7C651E2D3C420080EF92 /* FlowerMasterDetailUITests.swift */; };
+		35431E36201FF8DB000DD9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35431E35201FF8DB000DD9B1 /* AppDelegate.swift */; };
+		35431E38201FF8DB000DD9B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35431E37201FF8DB000DD9B1 /* ViewController.swift */; };
+		35431E3B201FF8DB000DD9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35431E39201FF8DB000DD9B1 /* Main.storyboard */; };
+		35431E3D201FF8DB000DD9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35431E3C201FF8DB000DD9B1 /* Assets.xcassets */; };
+		35431E40201FF8DC000DD9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35431E3E201FF8DB000DD9B1 /* LaunchScreen.storyboard */; };
+		35431E4B201FF8DC000DD9B1 /* BeatingTheLottoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35431E4A201FF8DC000DD9B1 /* BeatingTheLottoTests.swift */; };
+		35431E56201FF8DC000DD9B1 /* BeatingTheLottoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35431E55201FF8DC000DD9B1 /* BeatingTheLottoUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +38,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 352B7C3F1E2D3C420080EF92;
 			remoteInfo = FlowerMasterDetail;
+		};
+		35431E47201FF8DC000DD9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 352B7C381E2D3C420080EF92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35431E32201FF8DB000DD9B1;
+			remoteInfo = BeatingTheLotto;
+		};
+		35431E52201FF8DC000DD9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 352B7C381E2D3C420080EF92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35431E32201FF8DB000DD9B1;
+			remoteInfo = BeatingTheLotto;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -49,6 +70,19 @@
 		352B7C611E2D3C420080EF92 /* FlowerMasterDetailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerMasterDetailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		352B7C651E2D3C420080EF92 /* FlowerMasterDetailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerMasterDetailUITests.swift; sourceTree = "<group>"; };
 		352B7C671E2D3C420080EF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35431E33201FF8DB000DD9B1 /* BeatingTheLotto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatingTheLotto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35431E35201FF8DB000DD9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35431E37201FF8DB000DD9B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35431E3A201FF8DB000DD9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35431E3C201FF8DB000DD9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35431E3F201FF8DC000DD9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35431E41201FF8DC000DD9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35431E46201FF8DC000DD9B1 /* BeatingTheLottoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatingTheLottoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35431E4A201FF8DC000DD9B1 /* BeatingTheLottoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatingTheLottoTests.swift; sourceTree = "<group>"; };
+		35431E4C201FF8DC000DD9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35431E51201FF8DC000DD9B1 /* BeatingTheLottoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatingTheLottoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35431E55201FF8DC000DD9B1 /* BeatingTheLottoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatingTheLottoUITests.swift; sourceTree = "<group>"; };
+		35431E57201FF8DC000DD9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +107,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		35431E30201FF8DB000DD9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35431E43201FF8DC000DD9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35431E4E201FF8DC000DD9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +137,9 @@
 				352B7C421E2D3C420080EF92 /* FlowerMasterDetail */,
 				352B7C591E2D3C420080EF92 /* FlowerMasterDetailTests */,
 				352B7C641E2D3C420080EF92 /* FlowerMasterDetailUITests */,
+				35431E34201FF8DB000DD9B1 /* BeatingTheLotto */,
+				35431E49201FF8DC000DD9B1 /* BeatingTheLottoTests */,
+				35431E54201FF8DC000DD9B1 /* BeatingTheLottoUITests */,
 				352B7C411E2D3C420080EF92 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +150,9 @@
 				352B7C401E2D3C420080EF92 /* FlowerMasterDetail.app */,
 				352B7C561E2D3C420080EF92 /* FlowerMasterDetailTests.xctest */,
 				352B7C611E2D3C420080EF92 /* FlowerMasterDetailUITests.xctest */,
+				35431E33201FF8DB000DD9B1 /* BeatingTheLotto.app */,
+				35431E46201FF8DC000DD9B1 /* BeatingTheLottoTests.xctest */,
+				35431E51201FF8DC000DD9B1 /* BeatingTheLottoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,6 +187,37 @@
 				352B7C671E2D3C420080EF92 /* Info.plist */,
 			);
 			path = FlowerMasterDetailUITests;
+			sourceTree = "<group>";
+		};
+		35431E34201FF8DB000DD9B1 /* BeatingTheLotto */ = {
+			isa = PBXGroup;
+			children = (
+				35431E35201FF8DB000DD9B1 /* AppDelegate.swift */,
+				35431E37201FF8DB000DD9B1 /* ViewController.swift */,
+				35431E39201FF8DB000DD9B1 /* Main.storyboard */,
+				35431E3C201FF8DB000DD9B1 /* Assets.xcassets */,
+				35431E3E201FF8DB000DD9B1 /* LaunchScreen.storyboard */,
+				35431E41201FF8DC000DD9B1 /* Info.plist */,
+			);
+			path = BeatingTheLotto;
+			sourceTree = "<group>";
+		};
+		35431E49201FF8DC000DD9B1 /* BeatingTheLottoTests */ = {
+			isa = PBXGroup;
+			children = (
+				35431E4A201FF8DC000DD9B1 /* BeatingTheLottoTests.swift */,
+				35431E4C201FF8DC000DD9B1 /* Info.plist */,
+			);
+			path = BeatingTheLottoTests;
+			sourceTree = "<group>";
+		};
+		35431E54201FF8DC000DD9B1 /* BeatingTheLottoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35431E55201FF8DC000DD9B1 /* BeatingTheLottoUITests.swift */,
+				35431E57201FF8DC000DD9B1 /* Info.plist */,
+			);
+			path = BeatingTheLottoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,13 +276,66 @@
 			productReference = 352B7C611E2D3C420080EF92 /* FlowerMasterDetailUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		35431E32201FF8DB000DD9B1 /* BeatingTheLotto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35431E5E201FF8DC000DD9B1 /* Build configuration list for PBXNativeTarget "BeatingTheLotto" */;
+			buildPhases = (
+				35431E2F201FF8DB000DD9B1 /* Sources */,
+				35431E30201FF8DB000DD9B1 /* Frameworks */,
+				35431E31201FF8DB000DD9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeatingTheLotto;
+			productName = BeatingTheLotto;
+			productReference = 35431E33201FF8DB000DD9B1 /* BeatingTheLotto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35431E45201FF8DC000DD9B1 /* BeatingTheLottoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35431E5F201FF8DC000DD9B1 /* Build configuration list for PBXNativeTarget "BeatingTheLottoTests" */;
+			buildPhases = (
+				35431E42201FF8DC000DD9B1 /* Sources */,
+				35431E43201FF8DC000DD9B1 /* Frameworks */,
+				35431E44201FF8DC000DD9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35431E48201FF8DC000DD9B1 /* PBXTargetDependency */,
+			);
+			name = BeatingTheLottoTests;
+			productName = BeatingTheLottoTests;
+			productReference = 35431E46201FF8DC000DD9B1 /* BeatingTheLottoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35431E50201FF8DC000DD9B1 /* BeatingTheLottoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35431E60201FF8DC000DD9B1 /* Build configuration list for PBXNativeTarget "BeatingTheLottoUITests" */;
+			buildPhases = (
+				35431E4D201FF8DC000DD9B1 /* Sources */,
+				35431E4E201FF8DC000DD9B1 /* Frameworks */,
+				35431E4F201FF8DC000DD9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35431E53201FF8DC000DD9B1 /* PBXTargetDependency */,
+			);
+			name = BeatingTheLottoUITests;
+			productName = BeatingTheLottoUITests;
+			productReference = 35431E51201FF8DC000DD9B1 /* BeatingTheLottoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		352B7C381E2D3C420080EF92 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = IOStraining;
 				TargetAttributes = {
@@ -207,6 +352,20 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 352B7C3F1E2D3C420080EF92;
+					};
+					35431E32201FF8DB000DD9B1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					35431E45201FF8DC000DD9B1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 35431E32201FF8DB000DD9B1;
+					};
+					35431E50201FF8DC000DD9B1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 35431E32201FF8DB000DD9B1;
 					};
 				};
 			};
@@ -226,6 +385,9 @@
 				352B7C3F1E2D3C420080EF92 /* FlowerMasterDetail */,
 				352B7C551E2D3C420080EF92 /* FlowerMasterDetailTests */,
 				352B7C601E2D3C420080EF92 /* FlowerMasterDetailUITests */,
+				35431E32201FF8DB000DD9B1 /* BeatingTheLotto */,
+				35431E45201FF8DC000DD9B1 /* BeatingTheLottoTests */,
+				35431E50201FF8DC000DD9B1 /* BeatingTheLottoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +411,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		352B7C5F1E2D3C420080EF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35431E31201FF8DB000DD9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35431E40201FF8DC000DD9B1 /* LaunchScreen.storyboard in Resources */,
+				35431E3D201FF8DB000DD9B1 /* Assets.xcassets in Resources */,
+				35431E3B201FF8DB000DD9B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35431E44201FF8DC000DD9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35431E4F201FF8DC000DD9B1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -284,6 +470,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		35431E2F201FF8DB000DD9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35431E38201FF8DB000DD9B1 /* ViewController.swift in Sources */,
+				35431E36201FF8DB000DD9B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35431E42201FF8DC000DD9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35431E4B201FF8DC000DD9B1 /* BeatingTheLottoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35431E4D201FF8DC000DD9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35431E56201FF8DC000DD9B1 /* BeatingTheLottoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -296,6 +507,16 @@
 			isa = PBXTargetDependency;
 			target = 352B7C3F1E2D3C420080EF92 /* FlowerMasterDetail */;
 			targetProxy = 352B7C621E2D3C420080EF92 /* PBXContainerItemProxy */;
+		};
+		35431E48201FF8DC000DD9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35431E32201FF8DB000DD9B1 /* BeatingTheLotto */;
+			targetProxy = 35431E47201FF8DC000DD9B1 /* PBXContainerItemProxy */;
+		};
+		35431E53201FF8DC000DD9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35431E32201FF8DB000DD9B1 /* BeatingTheLotto */;
+			targetProxy = 35431E52201FF8DC000DD9B1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -312,6 +533,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				352B7C4F1E2D3C420080EF92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		35431E39201FF8DB000DD9B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35431E3A201FF8DB000DD9B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35431E3E201FF8DB000DD9B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35431E3F201FF8DC000DD9B1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -490,6 +727,96 @@
 			};
 			name = Release;
 		};
+		35431E58201FF8DC000DD9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BeatingTheLotto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mvfoundation.BeatingTheLotto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		35431E59201FF8DC000DD9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BeatingTheLotto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mvfoundation.BeatingTheLotto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		35431E5A201FF8DC000DD9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BeatingTheLottoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mvfoundation.BeatingTheLottoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatingTheLotto.app/BeatingTheLotto";
+			};
+			name = Debug;
+		};
+		35431E5B201FF8DC000DD9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BeatingTheLottoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mvfoundation.BeatingTheLottoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatingTheLotto.app/BeatingTheLotto";
+			};
+			name = Release;
+		};
+		35431E5C201FF8DC000DD9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BeatingTheLottoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mvfoundation.BeatingTheLottoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BeatingTheLotto;
+			};
+			name = Debug;
+		};
+		35431E5D201FF8DC000DD9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BeatingTheLottoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mvfoundation.BeatingTheLottoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BeatingTheLotto;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -509,6 +836,7 @@
 				352B7C6C1E2D3C420080EF92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		352B7C6D1E2D3C420080EF92 /* Build configuration list for PBXNativeTarget "FlowerMasterDetailTests" */ = {
 			isa = XCConfigurationList;
@@ -517,12 +845,38 @@
 				352B7C6F1E2D3C420080EF92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		352B7C701E2D3C420080EF92 /* Build configuration list for PBXNativeTarget "FlowerMasterDetailUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				352B7C711E2D3C420080EF92 /* Debug */,
 				352B7C721E2D3C420080EF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35431E5E201FF8DC000DD9B1 /* Build configuration list for PBXNativeTarget "BeatingTheLotto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35431E58201FF8DC000DD9B1 /* Debug */,
+				35431E59201FF8DC000DD9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		35431E5F201FF8DC000DD9B1 /* Build configuration list for PBXNativeTarget "BeatingTheLottoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35431E5A201FF8DC000DD9B1 /* Debug */,
+				35431E5B201FF8DC000DD9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		35431E60201FF8DC000DD9B1 /* Build configuration list for PBXNativeTarget "BeatingTheLottoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35431E5C201FF8DC000DD9B1 /* Debug */,
+				35431E5D201FF8DC000DD9B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

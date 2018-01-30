@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BeatingTheLotto.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>FlowerMasterDetail.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>352B7C601E2D3C420080EF92</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>35431E32201FF8DB000DD9B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>35431E45201FF8DC000DD9B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>35431E50201FF8DC000DD9B1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -12,6 +12,7 @@ class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
+    @IBOutlet weak var detailWebView: UIWebView!
 
     func configureView() {
         // Update the user interface for the detail item.
